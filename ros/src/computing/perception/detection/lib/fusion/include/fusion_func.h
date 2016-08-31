@@ -44,6 +44,9 @@
 #include <points2image/PointsImage.h>
 #include <cv_tracker/image_obj_tracked.h>
 
+#include <sensor_msgs/Image.h> 
+#include <cv_bridge/cv_bridge.h>
+
 #include <opencv2/opencv.hpp>
 
 #define NO_DATA 0
